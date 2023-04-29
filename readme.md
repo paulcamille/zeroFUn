@@ -1,6 +1,3 @@
-Note !!! 
-I am sorry for submitting my assignment late. However, I am willing to accept any penalties that may arise due to this shortcoming on my part.
-
 
 ______________about this program_______________
 
