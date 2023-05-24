@@ -1,0 +1,7 @@
+lower_bound = -1
+upper_bound = 0
+tolerance = 1e-4
+toler = 1e-10
+n_max_iteration = 200
+f = 0.5-exp(3.14*x)
+df = -3.14*exp(3.14*x)
