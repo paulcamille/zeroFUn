@@ -30,5 +30,5 @@ clean:
 	$(RM) *.o
 
 distclean: clean
-	$(RM) $(EXEC) $(EXEC_MUPARSER)
+	$(RM) $(EXEC_MUPARSER)
 	$(RM) *~
