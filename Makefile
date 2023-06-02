@@ -6,9 +6,9 @@ LDFLAGS ?=
 LDLIBS  ?= 
 
 # Flags for the muParser example.
-CPPFLAG_MUPARSER ?= -I./ -I../zeroFun/include
+CPPFLAG_MUPARSER ?= -I./ -I./include
 EXEC_MUPARSER     = main_getpot_muparser
-LDFLAGS_MUPARSER ?= -L../zeroFun/lib -Wl,-rpath=../zeroFun/lib
+LDFLAGS_MUPARSER ?= -L./lib -Wl,-rpath=./lib
 LIB_MUPARSER     ?= -lmuparser
 
 HEADERS = solverParam.hpp solverTraits.hpp solverBase.hpp secant.hpp secant.hpp solverFactory.hpp
